@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tile-Game</title>
+</head>
+<body>
+    <header>
+        <h2>Tile-Game</h2>
+        <a href="https://github.com/ifeelblue99">Github</a>
+    </header>
+    <main>
+        <section>
+            <h1>How to Play?</h1>
+            <p>Move black tiles up, down, right or
+                left to make horizontal or vertical three-tile-sized 
+                rows and columns. Every matches makes a path with the black tiles.
+                Make path from top left<strong>(Start)</strong>to bottom right<strong>(End)</strong>of the board without any intersection of colored tile.                   
+                <strong>Then press the Test button to let the magic happen.</strong>
+            </p>
+        </section>
+        <div class="game-area">
+            <span id="span-1">Moves:<span id="last-moves">20</span></span>
+            <div class="grid"></div>
+            <div class="game-control-btns">
+                <button id="restart-btn">Restart</button>
+                <button id="test-btn">Test</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

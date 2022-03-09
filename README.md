@@ -1,0 +1,1 @@
+This is a simple tile-match game with path finder algorithm.
